@@ -17,7 +17,6 @@ const SingleProjectComponent = (props)=>{
 		<div class="row">
 		
 	    	<div class="col-lg-5 col-sm-12">
-	    	<ScrollAnimation animateIn='bounceInLeft'>
               <div class="text">
                 <h3 class="text-title">{props.title}</h3>
                 <div className='para'>
@@ -30,12 +29,10 @@ const SingleProjectComponent = (props)=>{
                 </div>
 				<a href={props.link} target="_blank" class="button">View Site</a>
               </div>
-              </ScrollAnimation>
 	    	</div>
 	    	
 
 	    	<div class="col-lg-7 col-sm-12">
-	    	<ScrollAnimation animateIn='bounceInLeft'>
               <div class="image">
 					<Tilt className="Tilt shadow-4" options={{ max : 15 }} style={{ height: 350, width: 650 }} >
 						 <div className="Tilt-inner"> 
@@ -43,7 +40,6 @@ const SingleProjectComponent = (props)=>{
 						 </div>
 					</Tilt>
               </div>
-              </ScrollAnimation>
 	    	</div>
 
 

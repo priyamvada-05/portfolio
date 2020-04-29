@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import IntroductionComponent from './introduction/introductionComponent'
 import AboutMeComponent from './aboutMe/aboutmeComponent';
-import 'w3-css/w3.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectsComponent from './project/projectComponent';
 import ContactComponent from './contact/contactComponent';

@@ -81,3 +81,26 @@ background-color: #0066ff;
 
 
 }
+
+@media (max-width: 868px){
+
+.about{
+  height: 100%;
+   width: 100vw;
+   margin: 0 auto;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 75% 86%, 75% 100%, 51% 86%, 0 86%);
+    border-radius: 10px;
+  .image{
+    display: none;
+  }
+
+  .info{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+  }
+  .button {
+  display: none;
+  }
+}
+
+  }

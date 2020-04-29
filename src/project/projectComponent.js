@@ -15,7 +15,10 @@ const ProjectsComponent = ()=>{
 	        </h2>
 
 	        { projectDatas.map(data=>
+	        	<React.Fragment>
 	        		<SingleProjectComponent {...data} />
+	        		<hr />
+	        	</React.Fragment>
 	        		)}
 
 		</div>

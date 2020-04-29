@@ -107,8 +107,8 @@ class IntroductionComponent extends React.Component{
 	        </div>
 	        <div className='img'>
 	        {	this.state.status?
-	        	<img src={Img} alt='img' height='512px' width='auto' />
-	        	: <img src={Data} alt='img' height='512px' width='auto' />
+	        	<img className='img1' src={Img} alt='img' height='512px' width='auto' />
+	        	: <img className='img1' src={Data} alt='img' height='512px' width='auto' />
 	        }
 
 	        </div>

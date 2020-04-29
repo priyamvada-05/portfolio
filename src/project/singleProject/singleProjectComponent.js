@@ -6,12 +6,13 @@ import Img3 from '../../assest/Capture3.PNG';
 import Img4 from '../../assest/Capture4.PNG';
 import Img5 from '../../assest/Capture5.PNG';
 import ImgD from '../../assest/CaptureData.PNG';
+import ImgChat from '../../assest/Capture.PNG';
 import Tilt from 'react-tilt';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const SingleProjectComponent = (props)=>{
 
-	const ImageArray=[Img2,ImgD, Img1, Img3, Img4, Img5]
+	const ImageArray=[Img2,ImgChat,ImgD, Img1, Img3, Img4, Img5]
 	return(
 		<div class="row">
 		
@@ -28,7 +29,6 @@ const SingleProjectComponent = (props)=>{
                   </p>
                 </div>
 				<a href={props.link} target="_blank" class="button">View Site</a>
-				<hr />
               </div>
               </ScrollAnimation>
 	    	</div>

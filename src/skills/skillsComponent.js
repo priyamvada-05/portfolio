@@ -57,7 +57,8 @@ class SkillsComponent extends React.Component{
 						 alt='' 
 						 height='190px' 
 						 width='' 
-						 name='react'/>
+						 name='react'
+						 className='img'/>
 					{ this.state.react ? <p className=''>&#123; React.js &#125;</p>: null}
 					</div>
 					
@@ -70,7 +71,8 @@ class SkillsComponent extends React.Component{
 						 alt='' 
 						 height='190px' 
 						 width='' 
-						 name='angular'/>
+						 name='angular'
+						 className='img'/>
 					{ this.state.angular ? <p className=''>&#123; Angular.js &#125;</p>: null}
 				</div>
 				</div>
@@ -83,7 +85,8 @@ class SkillsComponent extends React.Component{
 						alt='' 
 						height='190px' 
 						width='' 
-						name='express'/>
+						name='express'
+						className='img'/>
 					{ this.state.express ? <p className=''>&#123; Express.js &#125;</p>: null}
 				</div>
 				</div>
@@ -95,7 +98,8 @@ class SkillsComponent extends React.Component{
 					<img src={PythonImg} 
 						 onMouseOver={this.OnChangeIn} 
 						 onMouseOut={this.OnChangeOut}
-						 alt='' height='190px' width='' name='python' />
+						 alt='' height='190px' width='' name='python' 
+						 className='img'/>
 					{ this.state.python ? <p className=''>&#123; Python &#125;</p>: null}
 				</div>
 				</div>
@@ -104,7 +108,8 @@ class SkillsComponent extends React.Component{
 					<img src={RImg} 
 						 onMouseOver={this.OnChangeIn}
 						 onMouseOut={this.OnChangeOut}
-						 alt='' height='190px' width='' name='r'/>
+						 alt='' height='190px' width='' name='r'
+						 className='img'/>
 					{ this.state.r ? <p className=''>&#123; R language &#125;</p>: null}
 				</div>
 				</div>
@@ -113,7 +118,8 @@ class SkillsComponent extends React.Component{
 					<img src={MongoImg} 
 						 onMouseOver={this.OnChangeIn}
 						 onMouseOut={this.OnChangeOut}
-						 alt='' height='auto' width='' name='mongo'/>
+						 alt='' height='auto' width='' name='mongo'
+						 className='img'/>
 					{ this.state.mongo ? <p className=''>&#123; Mongo DB &#125;</p>: null}
 				</div>
 				</div>

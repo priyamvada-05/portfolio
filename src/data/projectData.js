@@ -4,7 +4,7 @@ export const projectData={
 		p1:'A clean, beautiful and responsive portfolio template for Developers hosted on AWS !',
 		p2:'This project was highlighted in one of the highest valorated courses on Udemy, called Zero To Mastery. ',
 		image:0,
-		link: 'https://priyamvada-05.github.io/portfolio/'
+		link: 'http://firstloadbalancer-409031408.us-east-1.elb.amazonaws.com'
 	},
 		prject2:{
 		title:'Chatting Application ',
